@@ -12,7 +12,7 @@ Utils.interval(.1, function() {
     gamma = module.orientation.gamma;
     return pass.animate({
       properties: {
-        scale: Utils.modulate(gamma, [0, -90], [0.05, 0.9], true)
+        scale: Utils.modulate(gamma, [0, -45], [0.05, 0.9], true)
       }
     }, print(gamma), {
       curve: Spring
